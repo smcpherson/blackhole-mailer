@@ -1,1 +1,3 @@
-VERSION = '0.0.1'
+module BlackHoleMailer
+  VERSION = '0.0.1'
+end

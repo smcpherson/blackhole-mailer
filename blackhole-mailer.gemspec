@@ -18,5 +18,5 @@ Gem::Specification.new do |s|
   s.rubyforge_project = s.name
   s.summary = %q{A mail utility so dense, no message can escape.}
   s.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
-  s.version = VERSION
+  s.version = BlackHoleMailer::VERSION
 end
