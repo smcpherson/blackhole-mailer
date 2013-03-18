@@ -1,0 +1,4 @@
+lib/blackhole-mailer/version.rb 2eca81cf6c8d1a8515728f7caa5a099f859c6484
+lib/blackhole-mailer/base_mailer.rb 24cb9f94f2b76b2f9415eb237982efdc367bd6c0
+lib/blackhole-mailer/async_mailer.rb 189a0b330394e6e7b921ee6baa1dc6bbf9a976b6
+lib/blackhole-mailer/black_hole_mailer.rb 42f6581820eacfe8765a98df2369df157634e231
