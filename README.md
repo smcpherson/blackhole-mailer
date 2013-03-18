@@ -13,17 +13,16 @@ Sample Use
 
 Calling `abort_delivery` sends the message into a blackhole & the message is never sent.
 
-@@@
-class UserMailer < BaseMailer
-  def daily(user_id)
-    @user = User.find(user_id)
-    abort_delivery unless @user.wants_daily?
-    mail(:to => @user.email, 
-      :from => "MyApp <hello@myapp.com>",
-      :subject => "Daily mailer from MyApp!")    
-  end  
-end
-@@@
+    class UserMailer < BaseMailer
+      def daily(user_id)
+        @user = User.find(user_id)
+        abort_delivery unless @user.wants_daily?
+        mail(:to => @user.email, 
+          :from => "MyApp <hello@myapp.com>",
+          :subject => "Daily mailer from MyApp!")    
+      end  
+    end
+
 
 Further, you can inherit from AsyncMailer to get all the benefits of blackhole-mailer & integration with resque_mailer.
 
