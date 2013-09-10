@@ -4,8 +4,8 @@ require File.expand_path('../lib/blackhole-mailer/version', __FILE__)
 Gem::Specification.new do |s|
   s.add_development_dependency('rspec', '~> 2.4')
   s.add_development_dependency('bluecloth', '~> 2.0.11')
-  s.add_development_dependency('yard') 
-  s.add_runtime_dependency('resque_mailer', '~> 2.1.0')
+  s.add_development_dependency('yard')
+  s.add_runtime_dependency('resque_mailer', '~> 2.2.4')
   s.authors = ["K$"]
   s.description = %q{A mail utility so dense, no message can escape.}
   s.email = ['kdmny30@gmail.com']
