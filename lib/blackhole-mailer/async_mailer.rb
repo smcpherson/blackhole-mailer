@@ -1,4 +1,4 @@
 # Adds resque_mailer methods to any subclass.
 class AsyncMailer < BaseMailer
-  include Resque::Mailer
+  # include Resque::Mailer
 end
